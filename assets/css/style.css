@@ -13,6 +13,10 @@ body {
 	overflow: hidden;
 }
 
+.navbar {
+	width: 100vw !important;
+}
+
 .navbar-bg {
 	background-color: rebeccapurple !important;
 	padding: 10px;
