@@ -1,0 +1,223 @@
+/* 
+	Dark Blue    : #0B1646
+	Orange       : #FFC219
+	Dark Purple       : #AB23DB
+	Purple : #E9AAFF
+	Light Purple : #FBEFFF
+	Giant Text Color : #FBEFFF 70%
+*/
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	background-color: #FBEFFF;
+}
+
+.navbar-bg {
+	background-color: rebeccapurple !important;
+	padding: 10px;
+}
+
+.navbar-nav .nav-link {
+	margin-right: 10px;
+	font-weight: 400;
+}
+
+.section-hero {
+	font-family: 'Lora', serif;
+	position: relative; 
+	height: 596px;
+	margin-top: 60px;
+}
+
+.hero-orange {
+	position: absolute;
+	height: 596px;
+}
+
+.hero-purple {
+	position: absolute; 
+	height: 596px; 
+	right: 0;
+}
+
+@media screen and (max-width: 1009px) {
+	.section-hero {
+		height: 630px;
+	}
+
+	.hero-orange, .hero-purple {
+		height: 630px !important;
+	}
+
+	.row-hero {
+		margin-top: 70px;
+	}
+
+	.row-hero h1 {
+		font-size: 64px;
+	}
+
+	.btn-pill {
+		font-family: 'Lora', serif;
+		border-radius: 40px;
+		padding: 10px 30px 10px 30px;
+		margin-top: 20px;
+		font-size: 22px;
+	}
+
+	.section-stacks {
+		padding: 50px 40px 50px 40px;
+	}
+}
+
+.img-profile {
+	height: 500px;
+}
+
+.btn-pill {
+	font-family: 'Lora', serif;
+	border-radius: 40px;
+	padding: 8px 30px 8px 30px;
+	margin-top: 20px;
+	font-size: 20px;
+}
+
+.hr-dark {
+	border: 3px solid #0B1646;
+	border-radius: 20px;
+	width: 100px;
+}
+
+.section-stacks {
+	font-family: 'Montserrat', sans-serif;
+	background-color: #AB23DB;
+	padding: 130px 40px 130px 40px;
+}
+
+.section-stacks h1, h2 {
+	font-weight: 700;
+	color: white;
+	font-size: 54px;
+}
+
+.hr-custom-purple {
+	border: 3px solid #AB23DB;
+	border-radius: 20px;
+	width: 100px;
+}
+
+.hr-custom-orange {
+	border: 3px solid #FFC219;
+	border-radius: 20px;
+	width: 200px;
+}
+
+.section-about {
+	padding-top: 110px;
+	padding-bottom: 110px;
+}
+
+.giant-about {
+	font-size: 480px;
+	transform: rotate(-90deg);
+}
+
+.section-about h1, .section-language h1 {
+	font-family: 'Lora', serif;
+	font-size: 54px;
+	font-weight: 700;
+}
+
+.hr-custom-orange-two {
+	border: 3px solid #FFC219;
+	border-radius: 20px;
+	width: 300px;
+	display: block;
+}
+
+.section-about h4 {
+	display: block;
+}
+
+.section-project {
+	font-family: 'Lora', serif;
+	background-color: #AB23DB;
+	padding: 80px 40px 80px 40px;
+	color: white;
+}
+
+.section-project h1 {
+	font-size: 72px;
+}
+
+.section-project .card-title, .section-certificates .card-title {
+	color: #0B1646;
+	font-weight: 700;
+	font-family: 'Lora', serif;
+}
+
+.section-project .card-text, .section-certificates .card-text {
+	color: #0B1646;
+	font-family: 'Lora', serif;
+}
+
+.section-project .badge-detail {
+	font-family: 'Montserrat', sans-serif;
+	padding: 0 10px 0 10px;
+}
+
+.section-language {
+	font-family: 'Lora', serif;
+	padding: 50px 0 50px 0;
+}
+
+.hr-custom-purple-two {
+	border: 3px solid #AB23DB;
+	width: 350px;
+}
+
+.progress-bar {
+	background-color: #FFC219;
+}
+
+.section-certificates {
+	padding-top: 120px;
+	padding-bottom: 150px;
+	font-family: 'Montserrat', sans-serif;
+	background-color: #AB23DB;
+	color: white;
+}
+
+.section-certificates .badge-maximize {
+	font-family: 'Montserrat', sans-serif;
+	padding: 0 10px 0 10px;
+	background-color: #0B1646 !important;
+}
+
+.section-contact {
+	font-family: 'Lora', serif;
+	position: relative;
+	padding: 10px;
+}
+
+.giant-contact {
+	font-size: 120px;
+	color: #EAEAEA;
+	opacity: .7;
+}
+
+.section-contact h1.sm-contact {
+	margin-top: -100px;
+	font-size: 72px;
+}
+
+.section-contact h3, .section-contact h5 {
+	color: #AB23DB;
+}
+
+footer {
+	padding: 70px 0 70px 0;
+	background-color: #AB23DB;
+	color: white;
+	border-radius: 100px 100px 0 0;
+}
