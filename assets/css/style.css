@@ -10,11 +10,10 @@
 body {
 	font-family: 'Montserrat', sans-serif;
 	background-color: #FBEFFF;
-	overflow: hidden !important;
 }
 
 .navbar {
-	width: 100vw !important;
+	width: 100% !important;
 }
 
 .navbar-bg {
